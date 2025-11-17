@@ -1,0 +1,7 @@
+.home {
+   flex: 4;
+   padding: 20px 0;
+}
+.home-widget {
+   display: flex;
+}

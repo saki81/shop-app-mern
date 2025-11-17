@@ -1,0 +1,121 @@
+.user {
+   flex: 4;
+   padding: 20px;
+}
+.user-title-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.user-title {
+   color: var(--textColor);
+}
+
+.user-container {
+   display: flex;
+   margin-top: 20px;
+}
+.user-show {
+   flex: 1;
+   padding: 20px;
+   box-shadow: 0px 0px 8px -2px rgba(54, 51, 51, 0.75);
+   -webkit-box-shadow: 0px 0px 8px -2px rgba(54, 51, 51, 0.75);
+   -moz-box-shadow: 0px 0px 8px -2px rgba(54, 51, 51, 0.75);
+   border-radius: 10px;
+}
+.user-show span {
+   color: var(--textColor);
+   font-weight: 500;
+   margin-bottom: 5px;
+   font-size: 18px;
+}
+.user-show-img {
+   width: 60px;
+   height: 60px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.user-show-toptitle {
+   display: flex;
+   flex-direction: column;
+   margin: 20px 0;
+}
+.user-show-info {
+   display: flex;
+   margin: 20px 0;
+   
+   align-items: center;
+}
+span.user-show-title {
+ font-size: 20px;
+
+}
+.user-show-infotitle {
+   font-size: 17px;
+   padding-top: 6px;
+}
+.user-show-icon {
+   color: var(--textColor);
+   margin-right: 10px;
+   margin-top: 0px;
+}
+
+
+.user-update {
+   flex: 2;
+   padding: 20px;
+   margin-left: 20px;
+   box-shadow: 0px 0px 8px -2px rgba(54, 51, 51, 0.75);
+   -webkit-box-shadow: 0px 0px 8px -2px rgba(54, 51, 51, 0.75);
+   -moz-box-shadow: 0px 0px 8px -2px rgba(54, 51, 51, 0.75);
+   border-radius: 10px;
+}
+.user-update-title {
+   font-size: 25px;
+   font-weight: 500;
+   color: var(--textColor);
+}
+.user-update-left {
+   margin-top: 30px;
+}
+.user-update-form {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.user-update-item {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+.user-update-item>label {
+   margin-bottom: 5px;
+   font-size: 17px;
+   color: var(--textColor);
+}
+.user-update-item>input {
+   width: 270px;
+   height: 33px;
+   padding: 5px;
+   border: 1px solid var(--textColor);
+   border-radius: 5px;
+   outline: none;
+}
+.user-upload-img {
+   width: 170px;
+   height: 170px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 20px;
+}
+.user-update-upload {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+label .publish-icon {
+   width: 50px;
+   height: 50px;
+   color: #3c81be;
+}
+

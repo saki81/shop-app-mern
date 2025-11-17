@@ -1,0 +1,43 @@
+.newuser {
+   flex: 4;
+   padding: 20px;
+  
+}
+.newuser-title {
+   font-size: 25px;
+   font-weight: 500;
+   color: var(--textColor);
+}
+.newuser-form {
+   margin-top: 30px;
+   display: flex;
+   
+   flex-wrap: wrap;
+}
+.newuser-item {
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+   margin-right: 20px;
+}
+.newuser-item>input {
+   width: 100%;
+   border-radius: 5px;
+   padding: 12px;
+   outline: none;
+   border: 1px solid var(--textColor);
+}
+.newuser-gender #male,#female {
+   margin-top: 10px;
+}
+.newuser-gender>label {
+   margin-left: 5px;
+   font-size: 17px;
+   color: var(--textColor);
+}
+.newuser-select {
+   height: 40px;
+}
+
+

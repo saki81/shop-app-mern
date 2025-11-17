@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+:root{
+ --topColor: #2f9d8d;
+ --sideColor: #e5e3f6;
+ --textColor:  #444445;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.container {
+  display: flex;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.other-pages {
+  flex: 4;   
+}
+.user-list-edit, .product-list-edit,.order-list-btn,.user-add-btn,.create-product-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 14px;
+  background-color: #3c81be;
+  color: #fff;
+  cursor: pointer
+}
+.user-list-delete, .product-list-delete {
+  cursor: pointer;
+  color:#db2020;
+}
+.user-list-table, .product-list-table {
+  padding-top: 70px;
+  width: 80%;
+  margin: auto;
+  height: 700px;
+}
+button.newuser-create-btn,.product-update-btn,.user-update-btn,.add-product-btn,.loading-btn:disabled {
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--topColor);
+  padding: 8px 9px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 150px;
+}
+button.loading-btn:disabled {
+  cursor: not-allowed;
+  background:var(--topColor);
+  opacity: 0.8;
+}
+button.status-processing{
+  margin-bottom: 27px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  border: none;
+  background-color: #f73b3b;
+  color: #ffff;
+  font-size: 17px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+button.status-delivered {
+  margin-bottom: 27px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  border: none;
+  background-color: #109710;
+  color: #ffff;
+  font-size: 17px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+span.status-processing {
+  background-color: #f73b3b;
+  color: #ffff;
+  padding: 2px 9px;
+  border-radius: 3px;
+}
+span.status-delivered {
+  background-color: #109710;
+  color: #ffff;
+  padding: 3px 15px;
+  border-radius: 4px;
+}
+.format-date {
+  margin: 25px 0;
+}
+.delivery-date {
+  text-align: center; 
+}
+.delivery-date,p {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.date-time,.timeago,p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+

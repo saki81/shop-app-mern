@@ -1,0 +1,20 @@
+.user-list {
+   flex: 4;
+}
+.user-list-table {
+   padding-top: 70px;
+   width: 80%;
+   margin: auto;
+   height: 700px;
+}
+.user-data, .product-data {
+   display: flex;
+   align-items: center;
+} 
+.img-avatar {
+   width: 35px;
+   height: 35px;
+   margin-right: 20px;
+   border-radius: 50%;
+   object-fit: cover;
+}

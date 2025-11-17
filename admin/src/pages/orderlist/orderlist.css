@@ -1,0 +1,9 @@
+.order-list {
+  flex: 4
+}
+.order-list-table {
+  padding-top: 70px;
+  width: 80%;
+  margin: auto;
+  height: 700px;
+}
